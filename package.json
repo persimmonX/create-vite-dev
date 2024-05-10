@@ -1,0 +1,22 @@
+{
+  "name": "create-vite-dev",
+  "version": "1.0.12",
+  "description": "create empty vite template vue3",
+  "main": "./bin/create.js",
+  "type": "module",
+  "bin": {
+    "create-vite-dev": "./bin/create.js"
+  },
+  "scripts": {
+    "test": "create-vite-dev"
+  },
+  "keywords": [
+    "create",
+    "vite-dev"
+  ],
+  "author": "xman",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^9.2.20"
+  }
+}
