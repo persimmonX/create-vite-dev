@@ -17,7 +17,7 @@ npm create 命令通常用于通过模板快速生成新的项目结构，这些
 - 当你运行 npm install 命令时，npm 会查看当前项目目录中的 package.json 文件，并安装其中列出的所有依赖项。
 - npm install 还会将已安装的依赖项及其版本信息保存在 package-lock.json 文件中，以确保其他人在克隆或获取你的项目时能够安装相同版本的依赖项。
 
-npm create 命令实际是 npm install create-x@latest 的扩展，npm 包把以 create 开头的包 约定为创建模版，可拆开输入命令；
+> npm create 命令实际是 npm install create-x@latest 的扩展，npm 包把以 create 开头的包 约定为创建模版，可拆开输入命令；
 
 ## 编写 package 包
 
